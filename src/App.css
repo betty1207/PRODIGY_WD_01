@@ -1,0 +1,59 @@
+.navigation{
+ background: #1a1a1a;
+ padding: 0.5rem;
+ position: sticky;
+ top: 0;
+ width: 99%;
+ opacity: 0.8;
+}
+.navigation:hover{
+  background:rgb(199, 21, 21);
+  font-weight: 300;
+  font-family:  Georgia, Times, 'Times New Roman', serif;
+}
+.navbar{
+  
+  text-align: end;
+  list-style: none;
+  display:flex;
+  justify-content:end;
+  gap:5rem;
+}
+.navigation .navbar li a{
+  color: wheat;
+  text-decoration: none;
+  display: block;
+  background: #555;
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
+.navigation .navbar li a:hover{
+  color: #555;
+  background: wheat;
+  transition: 0.5;
+  font-weight: 300;
+  font-family:  'Times New Roman', serif;
+}
+section{
+  color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  text-align: center; 
+}
+.page-1{
+  background-color:#FFE8D6
+}
+.page-2{
+  background-color:#BEE3F8
+}
+.page-3{
+  background-color: #C6F6D5
+}
+.page-4{
+  background-color: #E9D8FD
+}
+.scrolled{
+  background-color:white;
+}
